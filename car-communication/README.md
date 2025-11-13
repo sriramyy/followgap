@@ -1,6 +1,7 @@
 ## Car Communication Package
 
 Allows a receiver car to receive odometer information (position, speed) from a sender car. 
+*Note: make sure `sender_node` & `receiver_node` are in another subdirectory `car_communication/`* 
 
 To use: (on both cars)
 \
@@ -10,8 +11,8 @@ To use: (on both cars)
 
 On the **SENDER** car
 \
-`ros2 run car_communication odom_sender`
+`ros2 run car_communication sender`
 
 On the **RECEIVER** car
 \
-`ros2 run car_communication odom_receiver`
+`ros2 run car_communication receiver`
