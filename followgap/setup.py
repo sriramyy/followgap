@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'gt_follow_gap = gt_follow_gap.gt_follow_gap:main',
+            'overtake = gt_follow_gap.overtake:main',
+            'overtake2 = gt_follow_gap.overtake2:main',
         ],
     },
 )
